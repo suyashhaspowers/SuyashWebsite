@@ -1,0 +1,45 @@
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+#EditNav {
+	list-style-type: none;
+	margin-left: 0px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	font-family: Franklin Gothic Medium;
+}
+
+a.BlockON {
+	display: block;
+	width: 120px;
+	background-color: #4C4C4C;
+	color: #DADADA;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px
+}
+
+a.Block:link, a.Block:visited {
+	display: block;
+	width: 120px;
+	background-color: #232323;
+	color: #DADADA;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px
+}
+
+a.Block:hover, a.Block:active {
+	background-color: #4C4C4C;
+}
