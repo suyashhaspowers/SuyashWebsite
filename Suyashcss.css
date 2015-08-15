@@ -1,0 +1,132 @@
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+body {
+	background-size: ;
+}
+
+#SocialMedia {
+	text-align: center;
+	margin-top: 0px;
+	opacity:0; 
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+img.Facebook {
+	margin-right: 5px;
+}
+
+img.Twitter {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+img.Instagram {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+img.Google {
+	margin-left: 5px;
+}
+
+
+#SuyashPic {
+	text-align: center;
+	margin-top: 55px;
+}
+
+#welcome {
+	color: #EFEFEF;
+	text-align: center;
+	opacity:0;  
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+#EditNav {
+	list-style-type: none;
+	margin-left: 0px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	font-family: Franklin Gothic Medium;
+}
+
+a.BlockON {
+	display: block;
+	width: 120px;
+	background-color: #4C4C4C;
+	color: #DADADA;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px
+}
+
+a.Block:link, a.Block:visited {
+	display: block;
+	width: 120px;
+	background-color: #232323;
+	color: #DADADA;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px
+}
+
+a.Block:hover, a.Block:active {
+	background-color: #4C4C4C;
+}
+p.Suyash {
+	font-size: 65px;
+	font-family: Franklin Gothic Medium;
+	padding: 0px 0px;
+	margin: 0px;
+}
+
+p.Student {
+	font-family: Franklin Gothic Medium;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#footer {
+	color: #F5F5F5;
+	text-align: center;
+	font-family: Franklin Gothic Medium;
+	background: #232323;
+	width:100%;
+	height:50px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
