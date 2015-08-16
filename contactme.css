@@ -65,3 +65,57 @@ a.Block:hover, a.Block:active {
 	margin-top: 46.9px;
 	font-family: Franklin Gothic Medium;
 }
+
+#Logo {
+	color: #0099FF;
+	margin-left: 75px;
+	margin-bottom: 5px;
+	margin-top: ;
+	font-size: 70px;
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+#notworking {
+	width: 483px;
+	height: 100px;
+	margin-left: 75px;
+	color: #686868;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1
+}
+
+#sa_contactdiv {
+	margin-left: px;
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
