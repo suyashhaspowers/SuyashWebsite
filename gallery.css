@@ -43,3 +43,30 @@ a.Block:link, a.Block:visited {
 a.Block:hover, a.Block:active {
 	background-color: #4C4C4C;
 }
+
+#Content {
+	height: 625px; 
+	background-color: #F5F5F5;
+	text-align: left;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 46.9px;
+	font-family: Franklin Gothic Medium;
+}
+
+#slide {
+	margin-left: 220px;
+	margin-top: 100px;
+}
+
+#footer {
+	color: #F5F5F5;
+	text-align: center;
+	font-family: Franklin Gothic Medium;
+	background: #232323;
+	width:100%;
+	height:50px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
