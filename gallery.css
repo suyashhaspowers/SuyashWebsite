@@ -43,6 +43,24 @@ a.Block:link, a.Block:visited {
 a.Block:hover, a.Block:active {
 	background-color: #4C4C4C;
 }
+#Logo {
+	color: #0099FF;
+	margin-left: 75px;
+	margin-bottom: 5px;
+	margin-top: ;
+	font-size: 70px;
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
 
 #Content {
 	height: 625px; 
@@ -56,7 +74,7 @@ a.Block:hover, a.Block:active {
 
 #slide {
 	margin-left: 220px;
-	margin-top: 100px;
+	margin-top: 40px;
 }
 
 #footer {
